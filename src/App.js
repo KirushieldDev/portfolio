@@ -2,80 +2,16 @@ import sliderImage from "./assets/images/slider.png";
 import profilePhoto from "./assets/images/photo_profil.png";
 import { useState } from "react";
 import Timeline from "./components/Timeline";
+import SkillCard from "./components/SkillCard";
+import timelineItems from "./data/timeline";
+import skills from "./data/skills";
 
 function App() {
     const scrollToAbout = () => {
         document.getElementById("about").scrollIntoView({ behavior: "smooth" });
     };
 
-    // Timeline items
-    const timelineItems = [
-        {
-            date: "2023 - 2026",
-            title: "BUT Informatique",
-            description: (
-                <>
-                    <p className="mb-2">
-                        Étudiant à {""}
-                        <a
-                            href="https://iut.univ-gustave-eiffel.fr/"
-                            target="_blank"
-                            className="text-blue-400 hover:underline"
-                        >
-                            l'IUT de Marne-la-Vallée
-                        </a>
-                        <br />
-                        Alternant chez{" "}
-                        <a
-                            href="https://dessinetonmeuble.fr/"
-                            target="_blank"
-                            className="text-blue-400 hover:underline"
-                        >
-                            Aryga
-                        </a>
-                    </p>
-                </>
-            ),
-        },
-        {
-            date: "2020 - 2023",
-            title: "Baccalauréat",
-            description: (
-                <>
-                    <p>
-                        Obtention du baccalauréat
-                        <br />
-                        STI2D option SIN au lycée Martin Luther King à
-                        Bussy-Saint-Georges.
-                    </p>
-                </>
-            ),
-        },
-        {
-            date: "2019 - 2020",
-            title: "Brevet des collèges",
-            description: (
-                <>
-                    <p>
-                        Obtention du brevet au Collège Jacques Yves Cousteau
-                        <br />à Bussy-Saint-Georges.
-                    </p>
-                </>
-            ),
-        },
-        {
-            date: "Déc 2019",
-            title: "Stage de 3ème chez Resoneo",
-            description: (
-                <>
-                    <p>Stage de découverte d'une semaine</p>
-                    <p>
-                        Découverte du développement web et du marketing digital.
-                    </p>
-                </>
-            ),
-        },
-    ];
+    // Les données timelineItems et skills sont maintenant importées depuis les fichiers dans le dossier data
 
     return (
         <div>
@@ -177,6 +113,30 @@ function App() {
                     </h2>
                     <div className="bg-gray-700 p-8 rounded-lg shadow-lg">
                         <Timeline items={timelineItems} />
+                    </div>
+                </div>
+            </div>
+
+            {/* Skills Section */}
+            <div id="skills" className="py-20 px-4 bg-gray-900">
+                <div className="max-w-6xl mx-auto">
+                    <h2 className="text-4xl font-bold text-white mb-10 text-center">
+                        Compétences
+                    </h2>
+                    <p className="text-gray-300 text-lg text-center mb-10 max-w-3xl mx-auto">
+                        Le BUT Informatique est structuré autour de 6
+                        compétences fondamentales qui représentent ma formation.
+                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {skills.map((skill, index) => (
+                            <SkillCard
+                                key={index}
+                                title={skill.title}
+                                color={skill.color}
+                                description={skill.description}
+                                icon={skill.icon}
+                            />
+                        ))}
                     </div>
                 </div>
             </div>
