@@ -131,6 +131,7 @@ function App() {
                         {skills.map((skill, index) => (
                             <SkillCard
                                 key={index}
+                                id={skill.id}
                                 title={skill.title}
                                 color={skill.color}
                                 description={skill.description}
