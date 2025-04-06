@@ -1,6 +1,7 @@
 import React from "react";
+import LearnMoreButton from "./LearnMoreButton";
 
-const SkillCard = ({ id, title, color, description, icon, onDetailsClick }) => {
+const SkillCard = ({ id, title, color, description, icon }) => {
     const getBgColor = () => {
         return { backgroundColor: color };
     };
@@ -50,27 +51,7 @@ const SkillCard = ({ id, title, color, description, icon, onDetailsClick }) => {
             <div className="w-full p-4 bg-gray-800 text-gray-300 flex-grow flex flex-col">
                 <p className="mb-auto">{description}</p>
                 <div className="mt-4 flex justify-end">
-                    <button
-                        onClick={() => onDetailsClick && onDetailsClick(id)}
-                        className="px-3 py-1 bg-gray-700 hover:bg-gray-600 text-white text-sm rounded-md transition-colors duration-300 inline-flex items-center"
-                        style={{ borderColor: color, borderWidth: "1px" }}
-                    >
-                        <span>En savoir plus</span>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-3 w-3 ml-1"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M14 5l7 7m0 0l-7 7m7-7H3"
-                            />
-                        </svg>
-                    </button>
+                    <LearnMoreButton to={`/${id}`} color={color} />
                 </div>
             </div>
         </div>
