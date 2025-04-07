@@ -4,8 +4,10 @@ import sliderImage from "../assets/images/slider.png";
 import profilePhoto from "../assets/images/photo_profil.png";
 import Timeline from "../components/Timeline";
 import SkillCard from "../components/SkillCard";
+import ProjectCard from "../components/ProjectCard";
 import timelineItems from "../data/timeline";
 import skills from "../data/skills";
+import projects from "../data/projects";
 
 const HomePage = () => {
     const navigate = useNavigate();
@@ -160,6 +162,33 @@ const HomePage = () => {
                                 description={skill.description}
                                 icon={skill.icon}
                                 onDetailsClick={handleSkillClick}
+                            />
+                        ))}
+                    </div>
+                </div>
+            </div>
+
+            {/* Projects Section */}
+            <div id="projects" className="py-20 px-4 bg-gray-800">
+                <div className="max-w-6xl mx-auto">
+                    <h2 className="text-4xl font-bold text-white mb-10 text-center">
+                        Mes Projets
+                    </h2>
+                    <p className="text-gray-300 text-lg text-center mb-10 max-w-3xl mx-auto">
+                        Découvrez une sélection de mes projets personnels et académiques
+                    </p>
+                    
+                    {/* Projects */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        {projects.map((project) => (
+                            <ProjectCard
+                                key={project.id}
+                                id={project.id}
+                                title={project.title}
+                                description={project.description}
+                                image={project.image}
+                                link={project.link}
+                                skillsInfo={project.skillsInfo}
                             />
                         ))}
                     </div>

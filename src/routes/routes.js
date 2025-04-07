@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router";
 import HomePage from "../pages/HomePage";
 import SkillDetail from "../pages/SkillDetail";
+import ProjectDetail from "../pages/ProjectDetail";
 
 const AppRoutes = () => {
     return (
@@ -28,6 +29,7 @@ const AppRoutes = () => {
                 path="/collaborer"
                 element={<SkillDetail skillId="collaborer" />}
             />
+            <Route path="/project/:projectId" element={<ProjectDetail />} />
             <Route path="*" element={<HomePage />} />
         </Routes>
     );
