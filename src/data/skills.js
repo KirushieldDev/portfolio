@@ -15,10 +15,9 @@ const skills = [
         longDescription: "La compétence Réaliser consiste à développer des solutions informatiques complètes. Cela inclut la conception, le codage, les tests et l'intégration des fonctionnalités selon les besoins du client. Elle implique une maîtrise des langages de programmation, des outils de développement et des bonnes pratiques. C'est une compétence centrale du métier d'informaticien. Elle permet de concrétiser une idée en une application fonctionnelle.",
         icon: realiserIcon,
         keySkills: [
-            { title: "Conception", description: "Élaborer l'architecture et les spécifications techniques d'une application" },
-            { title: "Développement", description: "Maîtriser les langages de programmation et frameworks modernes" },
-            { title: "Tests", description: "Mettre en place des stratégies de test pour garantir la qualité du code" },
-            { title: "Intégration", description: "Déployer et intégrer les solutions dans l'environnement du client" }
+            { title: "Elaborer une application informatique", description: "Concevoir et développer des solutions informatiques complètes" },
+            { title: "Faire évoluer une application informatique", description: "Adapter et améliorer les fonctionnalités existantes selon les besoins" },
+            { title: "Maintenir en conditions opérationnelles", description: "Assurer le bon fonctionnement et la stabilité des applications" }
         ],
         technologies: ["JavaScript", "React", "Node.js", "Java", "Python", "Git", "Docker", "CI/CD"],
         projects: [
@@ -41,10 +40,9 @@ const skills = [
         longDescription: "L'optimisation vise à améliorer les performances des applications informatiques. Que ce soit en réduisant le temps d'exécution, la consommation de mémoire ou en augmentant la précision, l'objectif est d'obtenir un système plus efficace. Cette compétence demande rigueur, analyse et une bonne compréhension des algorithmes. Elle est souvent sollicitée pour les projets exigeants. Savoir optimiser, c'est savoir aller plus loin que 'faire fonctionner'.",
         icon: optimiserIcon,
         keySkills: [
-            { title: "Analyse de performance", description: "Identifier les goulots d'étranglement et points critiques" },
-            { title: "Algorithmes", description: "Concevoir et implémenter des algorithmes efficaces" },
-            { title: "Profiling", description: "Utiliser des outils de mesure et d'analyse de performance" },
-            { title: "Refactoring", description: "Restructurer le code existant pour améliorer ses performances" }
+            { title: "Améliorer les performances", description: "Optimiser les programmes dans des contextes contraints" },
+            { title: "Limiter l'impact environnemental", description: "Réduire la consommation de ressources des applications informatiques" },
+            { title: "Mettre en place des applications efficaces", description: "Développer des solutions informatiques adaptées et performantes" }
         ],
         technologies: ["Algorithmes", "Structures de données", "Profilers", "Caching", "Indexation", "Parallélisation"],
         projects: [
@@ -67,10 +65,9 @@ const skills = [
         longDescription: "Administrer, c'est gérer l'ensemble des infrastructures informatiques d'une organisation. Cela comprend l'installation, la configuration et la maintenance des serveurs, réseaux, bases de données, etc. Cette compétence garantit la stabilité, la sécurité et la disponibilité des systèmes. Elle demande de la méthode et de la réactivité. C'est un pilier invisible mais essentiel du bon fonctionnement d'un système informatique.",
         icon: administrerIcon,
         keySkills: [
-            { title: "Administration système", description: "Gérer les serveurs et systèmes d'exploitation" },
-            { title: "Réseaux", description: "Configurer et maintenir les infrastructures réseau" },
-            { title: "Sécurité", description: "Mettre en place des politiques de sécurité et de sauvegarde" },
-            { title: "Monitoring", description: "Surveiller les performances et la disponibilité des systèmes" }
+            { title: "Déployer une nouvelle architecture technique", description: "Concevoir et mettre en place des infrastructures adaptées aux besoins" },
+            { title: "Améliorer une infrastructure existante", description: "Optimiser et faire évoluer les systèmes en place" },
+            { title: "Sécuriser les applications et les services", description: "Protéger les données et systèmes contre les menaces" }
         ],
         technologies: ["Linux", "Windows Server", "AWS", "Azure", "Virtualisation", "Firewall", "VPN", "DNS"],
         projects: [
@@ -93,10 +90,9 @@ const skills = [
         longDescription: "La gestion des données est cruciale dans un monde numérique. Cette compétence consiste à structurer, administrer et exploiter les données pour en tirer de l'information utile. Elle s'appuie sur des outils comme les bases de données relationnelles ou les systèmes de reporting. Bien gérer ses données, c'est assurer un pilotage éclairé de l'activité. C'est une compétence au carrefour entre la technique et la stratégie.",
         icon: gererIcon,
         keySkills: [
-            { title: "Modélisation", description: "Concevoir des modèles de données adaptés aux besoins métier" },
-            { title: "Administration de BDD", description: "Gérer et optimiser les bases de données" },
-            { title: "Business Intelligence", description: "Créer des tableaux de bord et rapports d'analyse" },
-            { title: "Data Mining", description: "Extraire des connaissances à partir des données brutes" }
+            { title: "Lancer un projet", description: "Initier et structurer des projets de gestion de données" },
+            { title: "Sécuriser les données", description: "Mettre en place des protocoles de protection des informations" },
+            { title: "Exploiter des données pour la prise de décisions", description: "Analyser et transformer les données en insights actionnables" }
         ],
         technologies: ["SQL", "NoSQL", "ETL", "Data Warehouse", "Power BI", "Tableau", "MongoDB", "PostgreSQL"],
         projects: [
@@ -119,10 +115,9 @@ const skills = [
         longDescription: "Conduire un projet informatique, c'est savoir l'organiser, le suivre et le mener à terme. Cette compétence repose sur des méthodes classiques (cycle en V) ou agiles (Scrum, Kanban). Elle implique la gestion des ressources, des délais, des risques et de la qualité. Elle nécessite aussi des compétences en communication. Être capable de piloter un projet, c'est faire le lien entre technique et besoin client.",
         icon: conduireIcon,
         keySkills: [
-            { title: "Gestion de projet", description: "Planifier, organiser et suivre l'avancement des projets" },
-            { title: "Méthodes agiles", description: "Appliquer les principes Scrum, Kanban ou autres méthodologies agiles" },
-            { title: "Analyse des besoins", description: "Comprendre et formaliser les attentes des utilisateurs" },
-            { title: "Gestion des risques", description: "Identifier, évaluer et mitiger les risques projet" }
+            { title: "Lancer un nouveau projet", description: "Initialiser et cadrer des projets informatiques" },
+            { title: "Piloter le maintien d'un projet", description: "Assurer la maintenance en condition opérationnelle" },
+            { title: "Faire évoluer un système d'information", description: "Adapter les systèmes aux nouveaux besoins de l'organisation" }
         ],
         technologies: ["Jira", "Trello", "MS Project", "GitHub Projects", "Scrum", "Kanban", "Lean", "UML"],
         projects: [
@@ -145,10 +140,9 @@ const skills = [
         longDescription: "La compétence Collaborer est essentielle dans un environnement de travail moderne. Elle concerne le travail en équipe, la communication, la répartition des tâches et l'entraide. Elle permet de tirer parti des forces de chacun pour atteindre un objectif commun. Travailler efficacement en groupe nécessite écoute, adaptabilité et esprit d'équipe. C'est une soft skill indispensable à tout informaticien.",
         icon: collaborerIcon,
         keySkills: [
-            { title: "Communication", description: "Échanger efficacement avec les membres de l'équipe et les parties prenantes" },
-            { title: "Travail d'équipe", description: "Contribuer positivement à la dynamique de groupe" },
-            { title: "Outils collaboratifs", description: "Maîtriser les plateformes et outils de collaboration" },
-            { title: "Gestion de conflits", description: "Résoudre les tensions et favoriser un environnement de travail positif" }
+            { title: "Lancer un nouveau projet", description: "Initier des projets en mobilisant une équipe" },
+            { title: "Organiser son travail en relation avec l'équipe", description: "Coordonner ses activités avec celles des autres membres" },
+            { title: "Elaborer, gérer et transmettre de l'information", description: "Communiquer efficacement au sein de l'équipe et avec les parties prenantes" }
         ],
         technologies: ["Slack", "Microsoft Teams", "Google Workspace", "Confluence", "Git", "Code Review", "Pair Programming"],
         projects: [

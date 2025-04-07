@@ -10,7 +10,7 @@ import skills from "../data/skills";
 const HomePage = () => {
     const navigate = useNavigate();
     const location = useLocation();
-    
+
     // Handle hash navigation when component mounts or location changes
     useEffect(() => {
         // Check if there's a hash in the URL
@@ -51,7 +51,7 @@ const HomePage = () => {
                         ELANKEETHAN Kirushikesan
                     </h1>
                     <p className="text-3xl font-semibold text-gray-300 mt-4">
-                        Étudiant & Alternant
+                        Étudiant & Apprenti développeur
                     </p>
                 </div>
 
