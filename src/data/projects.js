@@ -68,7 +68,7 @@ const projects = [
             "Interface utilisateur intuitive et responsive",
         ],
         challenges:
-            "L'implémentation d'un système d'authentification sécurisé et la gestion des tokens a représenté un défi important. L'intégration d'API et la gestion des erreurs lors des appels API ont également nécessité une attention particulière.",
+            "L'implémentation d'un système d'authentification sécurisé et la gestion des tokens. L'intégration d'API et la gestion des erreurs lors des appels API.",
     },
     {
         id: "startrip",
@@ -188,7 +188,7 @@ const projects = [
             "Base de données NoSQL pour la flexibilité des données",
         ],
         challenges:
-            "La mise en pratique des concepts NoSQL dans un contexte réel a été le principal défi de ce projet. L'intégration d'API externes pour les données de trajets et la synchronisation des informations en temps réel ont également nécessité une approche technique rigoureuse.",
+            "La mise en pratique des concepts NoSQL. L'intégration d'API externes pour les données de trajets et la synchronisation des informations en temps réel ont également nécessité une approche technique rigoureuse.",
     },
 ];
 
