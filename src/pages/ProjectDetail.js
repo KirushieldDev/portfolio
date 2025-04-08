@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useParams } from "react-router";
 import projects from "../data/projects";
 import BackButton from "../components/BackButton";
+import Tag from "../components/Tag";
 
 const ProjectDetail = () => {
     const { projectId } = useParams();
@@ -59,13 +60,11 @@ const ProjectDetail = () => {
                         <div className="flex flex-wrap justify-center gap-2 mb-4">
                             {project.skillsInfo &&
                                 project.skillsInfo.map((skill, index) => (
-                                    <span
+                                    <Tag
                                         key={index}
-                                        className="px-3 py-1 text-white rounded-full text-sm font-semibold"
-                                        style={{ backgroundColor: skill.color }}
-                                    >
-                                        {skill.title}
-                                    </span>
+                                        skill={skill}
+                                        linkable={true}
+                                    />
                                 ))}
                         </div>
                         {project.link && (

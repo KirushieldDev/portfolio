@@ -29,7 +29,7 @@ const projects = [
             "Visualisation interactive de la carte galactique",
         ],
         challenges:
-            "L'intégration d'une carte galactique interactive a nécessité l'adaptation de la bibliothèque Leaflet pour représenter un univers fictif. La gestion des calculs d'itinéraires entre planètes a demandé l'implémentation d'algorithmes d'optimisation complexes.",
+            "Le plus grand défi de ce projet a été l'utilisation simultanée de plusieurs langages de programmation : Java pour la création du graphe, C pour l'implémentation de l'algorithme du plus court chemin, et les technologies web classiques pour l'interface. L'intégration de ces différentes parties dans un système cohérent a représenté une difficulté technique majeure.",
         learnings:
             "Ce projet m'a permis de maîtriser l'intégration de bibliothèques de cartographie et de visualisation de données. J'ai également approfondi mes compétences en conception d'interfaces utilisateur thématiques et en gestion de données complexes.",
     },
@@ -48,7 +48,7 @@ const projects = [
             "Portail utilisateur avec authentification",
         ],
         challenges:
-            "La gestion d'un grand volume de données financières et leur visualisation de manière performante a été un défi majeur. L'implémentation d'une méthodologie Agile Scrum dans un contexte universitaire a également demandé une organisation rigoureuse de l'équipe.",
+            "Ce projet a été notre première expérience avec la méthodologie Agile Scrum dans un contexte universitaire, ce qui a nécessité une organisation rigoureuse de l'équipe.",
     },
     {
         id: "wikilinks",
@@ -65,7 +65,7 @@ const projects = [
             "Version mobile Android",
         ],
         challenges:
-            "L'apprentissage simultané de React et des bases de données NoSQL a représenté un défi important. La synchronisation des données en temps réel entre les joueurs et l'adaptation de l'interface pour le mobile ont également été des aspects techniques complexes à gérer.",
+            "Ce projet a été notre première expérience avec React et les bases de données NoSQL. L'intégration de l'API Wikipedia et l'utilisation des WebSockets pour la communication en temps réel entre les joueurs ont représenté des défis techniques majeurs. L'adaptation de l'interface pour le mobile a également nécessité une approche spécifique.",
     },
     {
         id: "silverlove",
@@ -82,7 +82,7 @@ const projects = [
             "Interface simplifiée et accessible",
         ],
         challenges:
-            "La conception d'une interface adaptée aux séniors tout en conservant une expérience utilisateur moderne a été un défi majeur. Le développement du système de calendrier et de réservation a également nécessité une gestion complexe des états et des conflits potentiels.",
+            "La principale difficulté de ce projet a été l'utilisation de FullCalendar pour le système de réservation d'activités, une première expérience pour l'équipe. La sauvegarde des dates de naissance et autres informations dans la base de données. La conception d'une interface adaptée aux séniors tout en conservant une expérience utilisateur moderne a nécessité une réflexion approfondie.",
     },
     {
         id: "traintran",
@@ -99,7 +99,7 @@ const projects = [
             "Base de données NoSQL pour la flexibilité des données",
         ],
         challenges:
-            "L'intégration d'API externes et la synchronisation des données en temps réel ont été des défis techniques importants. L'utilisation d'une base de données NoSQL pour un projet de cette envergure a également nécessité une conception soigneuse du schéma de données.",
+            "La mise en pratique des concepts NoSQL dans un contexte réel a été le principal défi de ce projet. L'intégration d'API externes pour les données de trajets et la synchronisation des informations en temps réel ont également nécessité une approche technique rigoureuse.",
     },
 ];
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
 import placeholderImg from "../assets/images/placeholder.png";
+import Tag from "./Tag";
 
 const ProjectCard = ({ id, title, description, image, link, skillsInfo }) => {
     // Fallback image if the project image is not available
@@ -34,13 +35,11 @@ const ProjectCard = ({ id, title, description, image, link, skillsInfo }) => {
                     <div className="flex flex-wrap gap-2">
                         {skillsInfo &&
                             skillsInfo.map((skill, index) => (
-                                <span
-                                    key={index}
-                                    className="px-2 py-1 text-xs font-semibold text-white rounded-full"
-                                    style={{ backgroundColor: skill.color }}
-                                >
-                                    {skill.title}
-                                </span>
+                                <Tag 
+                                    key={index} 
+                                    skill={skill} 
+                                    linkable={false} 
+                                />
                             ))}
                     </div>
                 </div>
