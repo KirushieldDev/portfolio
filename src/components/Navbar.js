@@ -41,9 +41,12 @@ const Navbar = () => {
                     {/* Logo */}
                     <div className="flex-shrink-0">
                         <a
-                            href="#"
+                            href="/"
                             className="text-white font-bold text-xl cursor-pointer"
-                            onClick={() => scrollToSection("hero")}
+                            onClick={(e) => {
+                                e.preventDefault();
+                                scrollToSection("hero");
+                            }}
                         >
                             Portfolio.
                         </a>

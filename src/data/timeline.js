@@ -11,6 +11,7 @@ const timelineItems = [
                     <a
                         href="https://iut.univ-gustave-eiffel.fr/"
                         target="_blank"
+                        rel="noreferrer"
                         className="text-blue-400 hover:underline"
                     >
                         l'IUT de Marne-la-Vallée
@@ -20,6 +21,7 @@ const timelineItems = [
                     <a
                         href="https://dessinetonmeuble.fr/"
                         target="_blank"
+                        rel="noreferrer"
                         className="text-blue-400 hover:underline"
                     >
                         Aryga
