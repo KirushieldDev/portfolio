@@ -7,7 +7,7 @@ const Tag = ({ skill, linkable = true }) => {
         ? {
               to: `/${skill.id}`,
               className:
-                  "px-2 py-1 text-xs font-semibold text-white rounded-full inline-block transition-transform hover:scale-105",
+                  "px-2 py-1 text-xs font-semibold text-white rounded-full inline-block transition-transform",
               style: { backgroundColor: skill.color },
           }
         : {

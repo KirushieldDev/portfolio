@@ -124,6 +124,42 @@ const ProjectDetail = () => {
                             </p>
                         </div>
                     )}
+
+                    {/* Screenshots */}
+                    {project.screenshots && project.screenshots.length > 0 && (
+                        <div className="mt-8">
+                            <h3 className="text-xl font-bold mb-4">
+                                Captures d'écran
+                            </h3>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                {project.screenshots.map(
+                                    (screenshot, index) => (
+                                        <div
+                                            key={index}
+                                            className="overflow-hidden rounded-lg shadow-lg"
+                                        >
+                                            <img
+                                                src={screenshot}
+                                                alt={`${
+                                                    project.title
+                                                } - Capture d'écran ${
+                                                    index + 1
+                                                }`}
+                                                className="w-full h-auto object-cover transition-transform duration-300 hover:scale-105"
+                                                onClick={() =>
+                                                    window.open(
+                                                        screenshot,
+                                                        "_blank"
+                                                    )
+                                                }
+                                                style={{ cursor: "pointer" }}
+                                            />
+                                        </div>
+                                    )
+                                )}
+                            </div>
+                        </div>
+                    )}
                 </div>
             </div>
         </div>
