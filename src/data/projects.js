@@ -164,7 +164,7 @@ const projects = [
             "Interface simplifiée et accessible",
         ],
         challenges:
-            "La principale difficulté de ce projet a été l'utilisation de FullCalendar pour le système de réservation d'activités, une première expérience pour l'équipe. La sauvegarde des dates de naissance et autres informations dans la base de données. La conception d'une interface adaptée aux séniors tout en conservant une expérience utilisateur moderne a nécessité une réflexion approfondie.",
+            "La principale difficulté de ce projet a été l'utilisation de FullCalendar pour le système de réservation d'activités, une première expérience pour l'équipe. La sauvegarde des dates de naissance et autres informations dans la base de données.",
     },
     {
         id: "traintran",
