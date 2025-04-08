@@ -53,10 +53,10 @@ const HomePage = () => {
                 </div>
 
                 <div className="text-center z-10 px-4">
-                    <h1 className="text-6xl md:text-7xl font-bold text-white mb-4 tracking-tight text-glow">
+                    <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight text-glow">
                         ELANKEETHAN Kirushikesan
                     </h1>
-                    <p className="text-3xl font-semibold text-gray-300 mt-4">
+                    <p className="text-2xl md:text-3xl font-semibold text-gray-300 mt-4">
                         Étudiant & Apprenti développeur
                     </p>
                 </div>
