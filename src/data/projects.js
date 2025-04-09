@@ -149,14 +149,9 @@ const projects = [
             "Application de rencontres dédiée aux séniors, facilitant les connexions et l'organisation d'activités. Comprend un système de calendrier pour la réservation d'activités et une fonctionnalité de chat pour la communication entre utilisateurs.",
         image: silverloveImg,
         link: "https://github.com/JulienS-Code/SilverLove",
-        skills: ["conduire", "collaborer"],
+        skills: [],
         screenshots: [silverloveScreen1, silverloveScreen2],
-        skillReasons: {
-            conduire:
-                "Ce projet a été l'occasion de découvrir la qualité du développement où nous avons été formés à gérer un projet en méthodologie Agile",
-            collaborer:
-                "Durant ce projet, nous avons dû communiquer selon les principes de la méthodologie Agile. Nous avons utilisé l'outil GitHub pour partager le code entre les membres de l'équipe.",
-        },
+        skillReasons: {},
         features: [
             "Profils utilisateurs adaptés aux séniors",
             "Système de calendrier et réservation d'activités",

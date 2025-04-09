@@ -190,7 +190,7 @@ const skills = [
             "Lean",
             "UML",
         ],
-        projectIds: ["bills", "wikilinks", "silverlove", "traintran"],
+        projectIds: ["bills", "wikilinks", "traintran"],
     },
     {
         id: "collaborer",
@@ -226,7 +226,7 @@ const skills = [
             "Code Review",
             "Pair Programming",
         ],
-        projectIds: ["silverlove", "traintran"],
+        projectIds: ["traintran"],
     },
 ];
 
