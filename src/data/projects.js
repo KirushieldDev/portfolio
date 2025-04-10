@@ -11,7 +11,6 @@ import startripScreen1 from "../assets/images/startrip_screen1.png";
 import traviaScreen1 from "../assets/images/travia_screen1.png";
 import traviaScreen2 from "../assets/images/travia_screen2.png";
 import billsScreen1 from "../assets/images/bills_screen1.png";
-import billsScreen2 from "../assets/images/bills_screen2.png";
 import wikilinksScreen1 from "../assets/images/wikilinks_screen1.png";
 import silverloveScreen1 from "../assets/images/silverlove_screen1.png";
 import silverloveScreen2 from "../assets/images/silverlove_screen2.png";
@@ -102,7 +101,7 @@ const projects = [
         image: billsImg,
         link: "https://github.com/Galaktik-hub/B2-S3-BILLS",
         skills: ["realiser", "conduire"],
-        screenshots: [billsScreen1, billsScreen2],
+        screenshots: [billsScreen1],
         skillReasons: {
             realiser:
                 "Ce projet montre ma capacité à développer une application web pour suivre les flux monétaires bancaires des entreprises en utilisant des outils comme AG Grid, une technologie que j'ai découvert pour ce projet",
